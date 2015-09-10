@@ -1,6 +1,6 @@
 {
   "name": "skt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "upload ssh key to some host",
   "main": "index.js",
   "scripts": {

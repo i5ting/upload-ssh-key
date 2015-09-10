@@ -30,9 +30,10 @@ console.log(s);
 // execFile: executes a file with the specified arguments
 child_process.exec(s,
   function (error, stdout, stderr) {
-    console.log('stdout: ' + stdout);
-    console.log('stderr: ' + stderr);
+
     if (error !== null) {
-      console.log('exec error: ' + error);
+      console.log('skt exec error: ' + error);
+    } else {
+      console.log(s + ' execute complete sucess! ');
     }
 });
