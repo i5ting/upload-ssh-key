@@ -1,0 +1,30 @@
+{
+  "name": "skt",
+  "version": "1.0.0",
+  "description": "upload ssh key to some host",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": "DEBUG=kp node test.js"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "ssh_key_to": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/upload-ssh-key.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/upload-ssh-key/issues"
+  },
+  "homepage": "https://github.com/i5ting/upload-ssh-key#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "debug": "^2.2.0"
+  }
+}
