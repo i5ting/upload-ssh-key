@@ -9,7 +9,8 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "ssh_key_to": "index.js"
+    "ssh_key_to": "index.js",
+    "skt": "index.js"
   },
   "repository": {
     "type": "git",
